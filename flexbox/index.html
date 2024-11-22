@@ -1,0 +1,159 @@
+<div class="container-1">
+	<div class="box-1">
+		<h3>Box 1</h3>
+		<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+	</div>
+	<div class="box-2">
+		<h3>Box 2</h3>
+		<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+	</div>
+	<div class="box-3">
+		<h3>Box 3</h3>
+		<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+	</div>
+</div>
+<div class="container-2">
+	<div class="box-4">
+		<h3>Box 1</h3>
+		<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+	</div>
+	<div class="box-5">
+		<h3>Box 2</h3>
+		<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+	</div>
+	<div class="box-6">
+		<h3>Box 3</h3>
+		<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+		aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+	</div>
+</div>
+<div class="container-3">
+	<div class="box-7">
+		<h3>Box 1</h3>
+		<p>aaaaaaaaaaaaaaaaaaaaaaaa
+		aaaaaaaaaaaaaaaaaaaaaa</p>
+	</div>
+	<div class="box-8">
+		<h3>Box 2</h3>
+		<p>aaaaaaaaaaaaaaaaaaaaaaaa
+		aaaaaaaaaaaaaaaaaaaaaa</p>
+	</div>
+	<div class="box-9">
+		<h3>Box 3</h3>
+		<p>aaaaaaaaaaaaaaaaaaaaaaaa
+		aaaaaaaaaaaaaaaaaaaaaa</p>
+	</div>
+</div>
+
+
+
+<style>
+* {
+	padding: 0;
+	margin: 0;
+}
+@media (min-width: 500px){
+.container-1 {
+	align-items: stretch;
+	flex-direction: row;
+	display: flex;
+	align-items: flex-start;
+}
+
+.container-1 div {
+	text-align: center;
+	padding: 10px;
+	border: 1px solid silver;
+}
+}
+.box-1 {
+	flex: 1;
+	order: 2;
+}
+
+.box-2 {
+	flex: 2;
+	order: 1;
+}
+
+.box-3 {
+	flex: 1;
+	order: 3;
+}
+
+.container-2 {
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.container-2 div {
+	text-align: center;
+	padding: 10px;
+	border: 1px solid silver;
+}
+
+
+.box-4 {
+	flex: 1;
+	order: 2;
+	width: 30%;
+}
+
+.box-5 {
+	flex: 1;
+	order: 1;
+	width: 30%;
+}
+
+.box-6 {
+	flex: 1;
+	order: 3;
+	width: 30%;
+}
+
+.container-3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container-3 div {
+	padding: 10px;
+	border: 1px solid silver;
+}
+
+
+.box-7 {
+	text-align: center;
+	flex: 1;
+	order: 2;
+	width: 30%;
+}
+
+.box-8 {
+	text-align: center;
+	flex: 1;
+	order: 1;
+	width: 30%;
+}
+
+.box-9 {
+
+	text-align: center;
+	flex: 1;
+	order: 3;
+	width: 30%;
+}
+
+</style>
